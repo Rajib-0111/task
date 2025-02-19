@@ -1,0 +1,423 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+body
+{
+  overflow-x: hidden;
+}
+header
+{
+  height: 12vh;
+  width: 100vw;
+  background-color: rgb(53, 53, 246);
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 3vw;
+}
+.icon-sec
+{
+  height: 8vh;
+  width: 10vw;
+  display: flex;
+  gap: .5vw;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #ffffff;
+}
+.fa-z
+{
+  color: rgb(255, 255, 0);
+  font-size: 2vw;
+}
+.searchbar
+{
+  height: 8vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searcharea
+{
+  height: 3.5vh;
+  width: 34vw;
+  background-color: #ffffff;
+}
+.searchspace
+{
+  height: 3.5vh;
+  width: 32vw;
+  border: none;
+  padding-left: .5rem;
+}
+.login
+{
+  height: 8vh;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logintxt
+{
+  background-color: #ffffff;
+  width: 8vw;
+  text-align: center;
+  font-size: 1.3vw;
+  font-weight: 600;
+  color: rgb(53, 53, 246);
+}
+.seller
+{
+  height: 8vh;
+  width: 14vw;
+  margin-left: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.txtnav
+{
+  font-size: 1.2vw;
+  color: white;
+  font-weight: 500;
+}
+.more
+{
+  height: 8vh;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+.fa-angle-down
+{
+  color: white;
+  font-size: 1.1vw;
+}
+.cart
+{
+  height: 8vh;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+.splicon
+{
+  color: white;
+  font-size: 1.1vw;
+}
+main
+{
+  height: 160vh;
+  width: 100vw;
+  background-color: #ffffff;
+  padding: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.left
+{
+  height: 120vh;
+  width: 48vw;
+}
+.right
+{
+  height: 152.5vh;
+  width: 48vw;
+  box-shadow: 0 2px 5px 2px #ccc;
+}
+.transition
+{
+  height: 68vh;
+  width: 48vw;
+  display: flex;
+}
+.leftstrip
+{
+  height: 70vh;
+  width: 6vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-right: 3px solid black;
+}
+.stripimage
+{
+  border: 2px solid black;
+  box-shadow: 0 5px 2px #ccc;
+}
+.mainimage
+{
+  height: 65vh;
+  width: 43vw;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  overflow: hidden;
+}
+.slideimage
+{
+  margin-left: 18%;
+  box-shadow: 0 2px 5px 2px rgb(105, 105, 105);
+  border-radius: 1rem;
+  animation: image-slider 15s ease-in-out 0s infinite;
+}
+@keyframes image-slider{
+  0%{transform: translateX(0);}
+  17%{transform: translateX(-580px);}
+  34%{transform: translateX(-1160px);}
+  51%{transform: translateX(-1740px);}
+  68%{transform: translateX(-2320px);}
+  85%{transform: translateX(-2900px);}
+  100%{transform: translateX(-3480px);}
+}
+.button
+{
+  margin-top: 3rem;
+  width: 48vw;
+  height: 12vh;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.3vw;
+  font-weight: 500;
+  color: #ffffff;
+}
+.btn1
+{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: orangered;
+  height: 8vh;
+}
+.btn2
+{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: orange;
+  height: 8vh;
+}
+.heading{
+  height: 12vh;
+  width: 48vw;
+}
+.specifications{
+  height: 124vh;
+  width: 48vw;
+}
+.heading
+{
+  padding: .5rem;
+}
+.main-heading
+{
+  font-size: 1.5vw;
+  margin: 1rem;
+  font-weight: 500;
+}
+.subheading
+{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.star
+{
+  background-color: rgb(11, 184, 11);
+  margin-left: 1rem;
+  color: white;
+  width: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: .5rem;
+  gap: .2rem;
+}
+.reviewtxt
+{
+  font-size: 1.1vw;
+  margin-top: .5rem;
+}
+.specheading
+{
+  padding-top: .5rem;
+  height: 7vh;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+.specheadtxt
+{
+  font-size: 1.3vw;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+.card{
+  width: 100%;
+  height: 25vh;
+  margin-top: .8rem;
+  padding: 1rem;
+  display: flex;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.cardleft
+{
+  width: 70%;
+  height: 21vh;
+}
+.cardright
+{
+  width: 30%;
+  height: 21vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightimg
+{
+  margin-left: 2rem;
+}
+.leftimg
+{
+  margin-right: 4rem;
+}
+.cardhead
+{
+  font-size: 1.2vw;
+  font-weight: 450;
+}
+.cardbody
+{
+  font-size: 1vw;
+}
+footer
+{
+  height: 25vh;
+  width: 100vw;
+  background-color: #424874;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerleft
+{
+  height: 23vh;
+  width: 60%;
+  border-right: 3px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footerright
+{
+  height: 23vh;
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+}
+.fcard
+{
+  height: 21vh;
+  width: 13vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid white;
+}
+.fcard:last-child
+{
+  border: none;
+}
+.fcardheading
+{
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: rgb(240, 155, 17);
+}
+.fcardtxt
+{
+  font-size: .9vw;
+  color: #ffffff;
+}
+.frright
+{
+  width: 20vw;
+  height: 22vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.frleft
+{
+  width: 10vw;
+  height: 22vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: .5rem;
+}
+.ficon
+{
+  font-size: 1.5vw;
+  color: #ffffff;
+  margin-right: .5rem;
+  margin-top: 5vh;
+}
+.copydiv
+{
+  font-size: 1.2vw;
+  height: 10vh;
+  width: 14vw;
+  border-right: 3px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactdiv
+{
+  font-size: 1.2vw;
+  height: 10vh;
+  width: 14vw;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; 
+}
+.contacttxt
+{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.fa-message
+{
+  margin-left: 1vw;
+}
+.cicon
+{
+  margin-right: 1.2vw;
+  font-size: 1.5vw;
+}

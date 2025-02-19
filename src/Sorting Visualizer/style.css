@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 5vh;
+  background-color: black;
+}
+.heading {
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.container {
+  margin-top: 2vh;
+  height: 70vh;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  border: 4px solid black;
+  border-radius: 1.5rem;
+  gap: 1.5px;
+  padding-top: 5px;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 30px 1px snow;
+}
+.btnsec {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+
+.wrapper {
+  margin-left: 10%;
+  transform: translate(-50%, -50%);
+  color: black;
+  border-radius: 10rem;
+}
+
+a {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+a span {
+  position: relative;
+  z-index: 2;
+}
+
+a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  border-radius: 10rem;
+  transition: all 0.35s;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:hover:after {
+  width: 100%;
+}
+
+#sorttype {
+  display: block;
+  width: 200px;
+  height: 45px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  bottom: 2.7vh;
+  background-color: #efefef;
+  border-radius: 10rem;
+}
+
+.valuehead {
+  color: white;
+}
+
+.valuecontainer {
+  height: 20px;
+  width: 70px;
+  border-radius: 10rem;
+  background-color: white;
+  text-align: center;
+}
+.valuewrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.colorwrap
+{
+  width: 100%;
+  padding-left: 15%;
+  margin-bottom: 1vh;
+}
+.colorhead
+{
+  margin-right: 1%;
+  color: white;
+}
+
+.colorselect
+{
+  background-color: #efefef;
+  border-radius: 10rem;
+  width: 7%;
+  height: 3vh;
+  text-align: center;
+}
